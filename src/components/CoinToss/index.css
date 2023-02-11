@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 400px;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #a35200;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.decision {
+  font-family: Roboto;
+  color: #334155;
+  font-size: 18px;
+}
+
+.coin-logo {
+  height: 150px;
+  background-size: cover;
+  margin-bottom: 2px;
+}
+
+.button {
+  background-color: #f9d423;
+  color: #475569;
+  font-size: 10px;
+  padding: 10px;
+  border-width: 0;
+  border-radius: 5px;
+}
+
+.list-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.list-item {
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

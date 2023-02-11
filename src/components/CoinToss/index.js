@@ -40,11 +40,11 @@ class CoinToss extends Component {
           <button className="button" type="button" onClick={this.tossTheCoin}>
             Toss Coin
           </button>
-          <ul className="list-container">
-            <li className="list-item"> Total: {total} </li>
-            <li className="list-item"> Heads: {heads} </li>
-            <li className="list-item"> Tails: {tails} </li>
-          </ul>
+          <div className="list-container">
+            <p className="item"> Total: {total} </p>
+            <p className="item"> Heads: {heads} </p>
+            <p className="item"> Tails: {tails} </p>
+          </div>
         </div>
       </div>
     )

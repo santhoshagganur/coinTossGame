@@ -50,10 +50,9 @@
 
 .list-container {
   display: flex;
-  list-style-type: none;
 }
 
-.list-item {
+.item {
   margin-right: 20px;
 }
 
@@ -61,5 +60,8 @@
   .list-container {
     display: flex;
     flex-direction: column;
+  }
+  .card-container {
+    width: 300px;
   }
 }
